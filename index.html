@@ -24,7 +24,8 @@
                     colors: {
                         clifford: '#da373d',
                         'btn-primary-color': '#E76F51',
-                        'background-color': '#FBE8E3'
+                        'background-color': '#FBE8E3',
+                        'footer-color': '#0B0D17',
                     }
                 }
             }
@@ -331,7 +332,7 @@
                     class="text-btn-primary-color">Questions</span></h1>
             <div class="md:flex md:justify-around md:items-center ">                
             <img src="images/others/faq.png" alt="">     
-                <div class="w-1/2">
+                <div class="md:w-1/2">
                     <div class="collapse collapse-arrow border-2 border-slate-200 mb-5">
                         <input type="radio" name="my-accordion-2" checked="checked" />
                         <div class="collapse-title text-xl font-medium">What are the most important things I should
@@ -370,9 +371,37 @@
 
     </main>
 
-    <footer>
-
-    </footer>
+    <footer class="md:flex justify-around bg-footer-color text-neutral-content p-10">
+        <aside>
+          
+          <div class="flex gap-4">
+            <h1>Download Now </h1> <h1>  License</h1>
+          </div>
+          <div class="flex gap-4">
+            <h1>About</h1>
+            <h1>Features</h1>
+            <h1>Pricing</h1>
+            <h1>Careers</h1>
+            <h1>Help</h1>
+            <h1>Privacy Policy</h1>                          
+          </div> <br> <br>
+          <p class="sm:hidden">© 2020 bike. All rights reserved</p>
+        </aside>
+        <nav>
+          <h6 class="footer-title">Get the App</h6>
+          <div class="">
+            <a >
+                <img src="images/others/ios.png" alt="" class="mb-5">
+              
+            </a>
+            <a>
+              <img src="images/others/android.png" alt="">
+            </a>
+            
+          </div>
+          <p class="lg:hidden mt-4 text-center">© 2020 bike. All rights reserved</p>
+        </nav>
+      </footer>
 </body>
 
 </html>
